@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./jbpublicidad.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=GFS+Didot&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body id="core">
+  <style>
+    nav img {
+    width: 80px;
+    height: 80px;
+}
+
+:root {
+
+    --bitcoin-orange: #f7931a;
+--soft-orange: #ffe9d5;
+--secondary-blue: #1a9af7;
+--soft-blue: #e7f5ff;
+--warm-black: #282623;
+--black: #201e1c;
+--grey: #bababa;
+--off-white: #faf8f7;
+--just-white: #fff;
+}
+
+  #core {
+    background-color: #d9e3f1;
+  }
+
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+
+
+.carousel-item {
+    transition: transform 1s ease, opacity .5s ease-out;
+}
+
+
+#carrusel {
+    position: relative;
+}
+
+#carrusel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+}
+
+
+
+
+#carrusel .overlay .container,
+#carrusel .overlay .row {
+    height: 100%;
+}
+
+
+#btn-platzi {
+    background-color: #3ea5ff;
+    border: #3660ad;
+  
+  }
+  
+  #btn-platzi:hover {
+      background-color: #2e71b4;
+      color: white;
+  }
+
+/*BOTONES*/
+
+
+
+#texto {
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 1px 29px 6px rgba(0,0,0,0.86); 
+    box-shadow: 3px 1px 29px 6px rgba(0,0,0,0.86);
+}
+
+#info {
+    margin-top: 150px;
+}
+
+#about-us #imagen  {
+    position: relative;
+    max-width:  80%;
+    
+}
+#horarios {
+    margin-top: 150px
+}
+
+#horarios .row {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-right: 40px;
+}
+
+
+#horarios .col {
+    padding: 12px;
+   
+    color: var(--warm-black);
+}
+
+#horarios #dias {
+    font-weight: bolder;
+}
+
+#horarios #horas {
+    font-weight: 500;
+}
+
+
+#footer {
+    background-color:  #015f88;
+    display: relative;
+    color: var(--just-white);
+    height: 120px;
+    padding: 50px 0px 0px 50px;
+    
+}
+
+
+#footer a {
+
+    color: var(--just-white);
+    text-decoration: none;
+    display: inline-block;
+
+    font-weight: 700;
+    
+}
+
+
+  </style>
+    <!--Header-->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container ">
+              <a class="navbar-brand" href="#">
+                
+              </a>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Inicio
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portafolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">¿Por que nosotros?</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contactanos!</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Siguenos y contactanos en nuestras redes!</a>
+                    <div class="dropdown-menu" style="background-color: #212529;">
+                      <a class="dropdown-item" href="https://www.instagram.com/jbpublicidadca/"><button type="button" class="btn btn-outline-danger" >Instagram</button></a>
+                      <a class="dropdown-item" href="#"><button type="button" class="btn btn-outline-primary">Facebook</button></a>
+                      <a class="dropdown-item" href="#"><button type="button" class="btn btn-outline-warning">Whatsapp</button></a>
+                      
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!--/header-->
+   
+
+        <!--Main-->
+
+        <main id="main">
+
+            <div id="carrusel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" style="background-color: #212529;">
+                <div class="carousel-inner container">
+                  <div class="carousel-item active">
+                    <img src="./imgs/portafoli1.jpg" class="d-block w-100" alt="hawaii1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imgs/portafolio5.jpg" class="d-block w-100" alt="hawaii2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imgs/portafolio6.jpg" class="d-block w-100" alt="hawaii3">
+                  </div>
+                </div>
+                
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 offset-md-6 text-center text-md-end">
+                                <h1>Cambia la imagen de tu negocio!</h1>
+                                <p class="d-none d-md-block">
+                                                Impresion-Instalación
+
+                                                Fabrica de avisos
+                                                Impresiones
+                                                Vinilo
+                                                Banner
+                                                Microperforados
+                                                Y MÁS.
+                                </p>
+                                <a href="#" class="btn btn-outline-light mb-4 mt-4">
+                                    ¿Por qué deberia hacerlo?
+                                </a>
+
+
+                                
+                                <a href="https://api.whatsapp.com/send/?phone=584124764414&text&type=phone_number&app_absent=0" type="button" id="btn-platzi" class="btn btn-success" data-bs-target="#modalCompra">Contactar!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+              </div>
+
+        </main>
+
+     <!--/Main-->
+
+
+
+     <section id="about-us ">
+
+        <div class="container mt-4" style="background-color: #212529;" id="texto">
+            <div class="row">
+              <div class="col  col-md-6 col-12 mb-4 mt-4 ms-4">
+                <img src="./imgs/jb-logo.jpg" alt="" id="imagen" style="max-width: 90%;">
+              </div>
+              
+              <div class="col " style="color: white; text-align: justify;">
+                <h2 class="mt-4 mb-4 text-center">Lo visual tambien vende...</h2>
+                <p>La imagen corporativa es el cúmulo de creencias y actitudes que tienen los consumidores y el público en general sobre una marca o corporativo, es decir, la percepción que se han formado a partir de los productos, servicios y comunicación externa de una empresa. En pocas palabras: la imagen corporativa es el significado que adquiere una empresa ante la sociedad.</p>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item" id="acordion">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          <h5 class="text-center ms-auto">Conocer mas</h5>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Nosotros nos encargamos por ti de esto, no te preocupes.</strong> Tenemos las mejores metodologias de implementacion de gigantografias, carteles, toldos, avisos y etiquetas. Trabajamos junto a profesionales del diseño para que el acabado esté optimizado. <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                
+              </div>
+                    
+               
+
+               
+            </div>
+          </div>
+        <!--Productos-->
+     </section>
+
+            <section id="info" >
+
+               
+
+                <div class="container mt-4 mb-4" style="background-color: #d9e3f1;">
+                     <h2 class="text-center mt-4">¿Que tenemos para tu negocio fisico?</h2>
+                    <div class="row mt-4">
+                        <div class="col col-md-4 col-12">
+                          <div class="card mb-3">
+                            <div class="card" style="background-color: rgba(217, 227, 241, 0.8); border: 1px solid black;">
+                              <img src="./imgs/cartas-de-colores.jpg" class="card-img-top" alt="...">
+                              <div class="card-body" style="color:  black; margin-top: 8px;">
+                                <h5 class="card-title">Cartas de colores</h5>
+                                <ul class="card-text">
+                                  <li>Medida a necesidad del cliente</li>
+                                  <li>Material de alta durabilidad</li>
+                                  <li>Impresiones full color</li>
+                                </ul>
+                                <a href="https://api.whatsapp.com/send/?phone=584124764414&text&type=phone_number&app_absent=0" class="btn btn-primary">Quiero esto en mi negocio!</a>
+                              </div>
+                            </div>
+
+                        </div>
+                       </div>
+
+
+
+                       <div class="col col-md-4 col-12">
+                        <div class="card mb-3">
+                          <div class="card" style="background-color: rgba(217, 227, 241, 0.8); border: 1px solid black;">
+                            <img src="./imgs/afiche.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="color:rgb(0, 0, 0);">
+                              <h5 class="card-title">Afiches</h5>
+                              <p class="card-text"><ul>
+                                <li>Acabado brillante o mate</li>
+                                <li>Tiempo de entrega según la necesidad del cliente</li>
+                                <li>Impresion de alta resolucion.</li>
+                              </ul></p>
+                              <a href="https://api.whatsapp.com/send/?phone=584124764414&text&type=phone_number&app_absent=0" class="btn btn-primary">Quiero esto en mi negocio!</a>
+                            </div>
+                          </div>
+
+                      </div>
+                     </div>
+
+
+                     <div class="col col-md-4 col-12">
+                      <div class="card mb-3">
+                        <div class="card" style="background-color: rgba(217, 227, 241, 0.8); border: 1px solid black;">
+                          <img src="./imgs/sellos-personalizados.jpg" class="card-img-top" alt="...">
+                          <div class="card-body" style="color:rgb(0, 0, 0);">
+                            <h5 class="card-title">Sellos automáticos</h5>
+                            <p class="card-text"><ul>
+                              <li>Es un equipo que incorpora una almohadilla de tinta que se transfiere al papel y totalmente personalizada con el diseño de su preferencia</li>
+                              
+                            </ul></p>
+                            <a href="https://api.whatsapp.com/send/?phone=584124764414&text&type=phone_number&app_absent=0" class="btn btn-primary">Quiero esto en mi negocio!</a>
+                          </div>
+
+                          
+                        </div>
+
+                        </div>
+
+                        </div>
+
+                        </div>
+
+
+                        <div class="row mt-4">
+                          <div class="col col-md-4 col-12" >
+                            <div class="card mb-3" >
+                              <div class="card" style="background-color: rgba(217, 227, 241, 0.8); border: 1px solid black;">
+                                <img src="./imgs/talonario.jpg" class="card-img-top" alt="...">
+                                <div class="card-body" style="color:rgb(0, 0, 0);">
+                                  <h5 class="card-title">Etiquetas</h5>
+                                  <p class="card-text"><ul>
+                                    <li>Media página o página completa</li>
+                                    <li>Impresion a color</li>
+                                    <li>Original y copia</li>
+                                  </ul></p>
+                                  <a href="https://api.whatsapp.com/send/?phone=584124764414&text&type=phone_number&app_absent=0" class="btn btn-primary">Quiero esto en mi negocio!</a>
+                                </div>
+                              </div>
+  
+                          </div>
+                         </div>
+  
+  
+  
+                         <div class="col col-md-4 col-12">
+                          <div class="card mb-3">
+                            <div class="card" style="background-color: rgba(217, 227, 241, 0.8); border: 1px solid black;">
+                              <img src="./imgs/sticker5 (2).jpg" class="card-img-top" alt="...">
+                              <div class="card-body" style="color:rgb(0, 0, 0);">
+                                <h5 class="card-title">Gigantografia</h5>
+                                <p class="card-text"><ul>
+                                  <li>Media página o página completa</li>
+                                  <li>Impresión a color</li>
+                                  <li>Original y copia</li>
+                                </ul></p>
+                                <a href="https://api.whatsapp.com/send/?phone=584124764414&text&type=phone_number&app_absent=0" class="btn btn-primary">Quiero esto en mi negocio!</a>
+                              </div>
+                            </div>
+  
+                        </div>
+                       </div>
+  
+  
+                       <div class="col col-md-4 col-12">
+                        <div class="card mb-3">
+                          <div class="card" style="background-color: rgba(217, 227, 241, 0.8); border: 1px solid black;">
+                            <img src="./imgs/papeleria.jpg" class="card-img-top" alt="...">
+                            <div class="card-body" style="color:rgb(0, 0, 0);">
+                              <h5 class="card-title">Papeleria Corporativa</h5>
+                              <p class="card-text"><ul>
+                                <li>Media página o página completa</li>
+                                <li>Original y copia</li>
+                                <li>Impresion a color</li>
+                              </ul></p>
+                              <a href="https://api.whatsapp.com/send/?phone=584124764414&text&type=phone_number&app_absent=0" class="btn btn-primary">Quiero esto en mi negocio!</a>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>    
+                </section>
+
+                 <!--/Productos-->
+
+                 <!--horarios-->
+
+                 <section >
+
+                  <div class="container" id="horarios">
+                    <h3 class="text-center">Podras encontrarnos en las siguientes horas:</h3>
+                    <div class="row">
+                      <div class="col offset-4 col-md-3 offset-md-6">Apertura</div>
+                      <div class="col  col-md-3">Cierre</div>
+                      <div class="col  col-md-3  offset-md-3" id="dias" >Lunes a Viernes</div>
+                      <div class="col col-3" id="horas">7:00am</div>
+                      <div class="col" id="horas">5:00pm</div>
+                      <div class="col col-md-3  offset-md-3" id="dias">Sabados y domingos</div>
+                      <div class="col col-3" id="horas">11:am</div>
+                      <div class="col" id="horas">3:00pm</div>
+                    
+                  </div>
+                 </section>
+
+              
+                 <!--/horarios-->
+
+                 <!--footer-->
+                <footer class="sitcky-bottom">
+             
+
+                  <div class="container-fluid" id="footer">
+                    <div class="row text-center">
+                      <div class="col col-md-6 col-12"><a href="">Puedes ubicarnos en: XXX</a></div>
+                      <div class="col col-md-6 col-12"><a href="">Created by: Jeipy.dev</a></div>
+                    </div>
+                  </div>
+                  
+                  
+                </footer>
+                  
+                 <!--/footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
